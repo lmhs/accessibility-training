@@ -320,3 +320,81 @@ a[href*="//"]:not([href*="localhost"]):not([href*="epam.com"]):not([href*="mysit
 a[href*="//"]:not([href*="localhost"]):not([href*="epam.com"]):not([href*="mysite.com"]):active {
   cursor: alias;
 }
+
+.tabs button {
+  background: none;
+  font-size: 1rem;
+  align-items: center;
+  border-bottom-color: #dbdbdb;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  color: #4a4a4a;
+  display: flex;
+  justify-content: center;
+  margin-bottom: -1px;
+  padding: .5em 1em;
+  vertical-align: top;
+}
+
+.tabs button:hover {
+  border-bottom-color: #363636;
+  color: #363636;
+}
+
+.tabs.is-boxed button {
+  border: 1px solid transparent;
+  border-radius: 4px 4px 0 0;
+}
+
+.tabs li.is-active button {
+  border-bottom-color: #3273dc;
+  color: #3273dc;
+}
+
+.tabs.is-boxed button:hover {
+  background-color: #f5f5f5;
+  border-bottom-color: #dbdbdb;
+}
+
+.hero.is-info .tabs button {
+  color: #fff;
+  opacity: .9;
+}
+
+.tabs.is-boxed li.is-active button {
+  background-color: #fff;
+  border-color: #dbdbdb;
+  border-bottom-color: transparent!important;
+}
+
+.hero.is-info .tabs button:hover {
+  opacity: 1;
+}
+
+.hero.is-info .tabs.is-boxed button,
+.hero.is-info .tabs.is-toggle button {
+  color: #fff;
+}
+
+.hero.is-info .tabs li.is-active button {
+  opacity: 1;
+}
+
+.hero.is-info button:not(.button):not(.dropdown-item):not(.tag),
+.hero.is-info strong {
+  color: inherit;
+}
+
+.hero.is-info .tabs.is-boxed button:hover,
+.hero.is-info .tabs.is-toggle button:hover {
+  background-color: rgba(10,10,10,.1);
+}
+
+.hero.is-info .tabs.is-boxed li.is-active button,
+.hero.is-info .tabs.is-boxed li.is-active button:hover,
+.hero.is-info .tabs.is-toggle li.is-active button,
+.hero.is-info .tabs.is-toggle li.is-active button:hover {
+  background-color: #fff;
+  border-color: #fff;
+  color: #209cee;
+}
