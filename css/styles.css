@@ -299,3 +299,21 @@ select:active,
 .soc li {
   display: inline;
 }
+
+.menu-list a.tag:not(body) {
+  display: inline-flex;
+  border-radius: 4px;
+  color: #4a4a4a;
+  padding-left: .75em;
+  padding-right: .75em;
+}
+
+.button.is-wide {
+  width: 100%;
+}
+
+a[href*="//"]:not([href*="localhost"]):not([href*="epam.com"]):not([href*="mysite.com"]):focus,
+a[href*="//"]:not([href*="localhost"]):not([href*="epam.com"]):not([href*="mysite.com"]):hover,
+a[href*="//"]:not([href*="localhost"]):not([href*="epam.com"]):not([href*="mysite.com"]):active {
+  cursor: alias;
+}
