@@ -398,3 +398,7 @@ a[href*="//"]:not([href*="localhost"]):not([href*="epam.com"]):not([href*="mysit
   border-color: #fff;
   color: #209cee;
 }
+
+time.subtitle {
+  display: block;
+}
