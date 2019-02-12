@@ -290,3 +290,12 @@ select:active,
     width:auto;
     height:auto;
 }
+
+.content ul.soc {
+  list-style: none;
+  margin: 0;
+}
+
+.soc li {
+  display: inline;
+}
