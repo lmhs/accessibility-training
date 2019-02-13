@@ -11,11 +11,11 @@
 </head>
 
 <body>
-  <header class="hero hero-bg is-fullheight">
+  <header class="hero hero-bg is-fullheight" role="banner">
     <a class="button v-h" href="#notify">Skip navigation</a>
     <a class="button v-h" href="#main">Skip to main content</a>
     <section class="hero-head">
-      <nav class="navbar">
+      <section class="navbar">
         <div class="container">
           <div class="navbar-brand">
             <a class="navbar-item has-text-white">
@@ -29,7 +29,7 @@
             </button>
           </div>
 
-          <div id="navbarMenu" class="navbar-menu">
+          <nav id="navbarMenu" class="navbar-menu" role="navigation">
             <ul class="navbar-end">
               <li class="navbar-item">
                 <a class="button is-white is-outlined">
@@ -64,9 +64,9 @@
                 </a>
               </li>
             </ul>
-          </div>
+          </nav>
         </div>
-      </nav>
+      </section>
     </section>
     
     <section class="hero-body">
@@ -76,7 +76,7 @@
           <p class="subtitle has-text-white">
             $this is the best software platform for running an internet business. We handle billions of dollars every year for forward-thinking businesses around the world.
           </p>
-          <form class="box">
+          <form class="box" role="form">
             <div class="field is-grouped">
               <p class="control is-expanded">
                 <label class="v-h" for="notify-me">Notify me</label>
@@ -1221,7 +1221,7 @@
       </div>
     </section>
   
-    <footer class="footer">
+    <footer class="footer" role="contentinfo">
       <div class="container">
         <div class="columns">
           <article class="column is-3 is-offset-2">
