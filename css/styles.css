@@ -274,8 +274,8 @@ select:active,
     outline-style: auto;
   }
 }
-
-.visually-hidden {
+/* v-h stands for visually hidden */
+.v-h {
   position: absolute !important;
   height: 1px; width: 1px;
   overflow: hidden;
@@ -283,9 +283,9 @@ select:active,
   clip: rect(1px, 1px, 1px, 1px);
 }
 
-.visually-hidden a:focus,
-.visually-hidden input:focus,
-.visually-hidden button:focus {
+.v-h a:focus,
+.v-h input:focus,
+.v-h button:focus {
     position:static;
     width:auto;
     height:auto;
