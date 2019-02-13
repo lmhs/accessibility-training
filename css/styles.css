@@ -136,6 +136,10 @@
   }
 }
 
+a {
+  color: #2957a2;
+}
+
 .button:active,
 .button:focus,
 .file-cta:active,
@@ -401,4 +405,39 @@ a[href*="//"]:not([href*="localhost"]):not([href*="epam.com"]):not([href*="mysit
 
 time.subtitle {
   display: block;
+}
+
+.button.is-info,
+.button.is-info.is-hovered,
+.button.is-info:hover,
+.button.is-info:active,
+.button.is-info:focus,
+.hero.is-info {
+  background-color: #0e6faf;
+}
+
+.tag:not(body).is-primary {
+  background-color: #166d61;
+}
+
+.has-background-grey-light {
+  background-color: #d6d2d2!important;
+}
+
+.hero.is-info .tabs.is-boxed li.is-active button, .hero.is-info .tabs.is-boxed li.is-active button:hover, .hero.is-info .tabs.is-toggle li.is-active button, .hero.is-info .tabs.is-toggle li.is-active button:hover {
+  color: #0e6faf;
+}
+
+.tag:not(body).is-danger,
+.help.is-danger {
+  background-color: #bb3333;
+}
+
+.tag:not(body).is-success,
+.help.is-success {
+  background-color: #248243;
+}
+
+.has-text-grey-light {
+  color: #828282!important;
 }
