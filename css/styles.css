@@ -136,6 +136,16 @@
   }
 }
 
+.breadcrumb {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background: #fff;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.breadcrumb a,
 a {
   color: #2957a2;
 }
