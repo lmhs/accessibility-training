@@ -438,14 +438,20 @@ time.subtitle {
   color: #0e6faf;
 }
 
-.tag:not(body).is-danger,
-.help.is-danger {
+.tag:not(body).is-danger {
   background-color: #bb3333;
 }
 
-.tag:not(body).is-success,
-.help.is-success {
+.help.is-danger {
+  color: #bb3333;
+}
+
+.tag:not(body).is-success {
   background-color: #248243;
+}
+
+.help.is-success {
+  color: #248243;
 }
 
 .has-text-grey-light {
