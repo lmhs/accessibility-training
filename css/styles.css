@@ -457,3 +457,17 @@ time.subtitle {
 .has-text-grey-light {
   color: #828282!important;
 }
+
+.notification-message {
+  position: fixed;
+  top: 30px;
+  left: 5px;
+  display: block;
+  background: green;
+  padding: 15px;
+  color: #fff;
+}
+
+.notification-message:empty {
+  padding: 0;
+}

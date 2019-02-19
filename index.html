@@ -1334,6 +1334,19 @@
     </div>
   </main>
 
+  <div aria-live="polite" class="notification-message"></div>
+
+  <script>
+    var times = 0;
+    var newContentMsg = 'New content has been published';
+    var noContentMsg = 'No content has been published';
+    setInterval(function () {
+      var isEven = times % 2 == 0;
+      times = isEven ? times++ : times--;
+      document.querySelector('.notification-message').textContent = isEven ? newContentMsg : noContentMsg;
+    }, 1000 * 60);    
+  </script>
+
   <script src="https://unpkg.com/bulma-modal-fx/dist/js/modal-fx.min.js"></script>
   <script async src="js/custom.js"></script>
 </body>
