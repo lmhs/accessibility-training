@@ -379,7 +379,7 @@
                   <div class="content">
                     <div>Click on image above</div>
                     <p>Purus semper eget duis at tellus at urna condimentum mattis. Non blandit massa enim nec. Integer enim neque volutpat ac tincidunt vitae semper quis. Accumsan tortor posuere ac ut consequat semper viverra nam.</p>
-                    <button type="button" class="button is-link modal-button" data-target="modal-image1">Image modal</button>
+                    <button type="button" class="button is-link modal-button" id="modal-image-1-btn" data-target="modal-image1">Image modal</button>
                   </div>
                 </div>
               </article>
@@ -405,14 +405,14 @@
               <article class="card">
                 <div class="card-image">
                   <div class="image is-4by3">
-                    <img alt="Random image pattern" src="https://source.unsplash.com/collection/146130/?sig=3" class="modal-button" data-target="modal-image2">
+                    <img alt="Random image pattern" src="https://source.unsplash.com/collection/146130/?sig=3" class="modal-button" id="modal-image-btn" data-target="modal-image2">
                   </div>
                 </div>
                 <div class="card-content">
                   <div class="content">
                     <div>Click anywhere on card</div>
                     <p>Imperdiet dui accumsan sit amet nulla facilisi morbi. Fusce ut placerat orci nulla pellentesque dignissim enim. Libero id faucibus nisl tincidunt eget nullam. Commodo viverra maecenas accumsan lacus vel facilisis.</p>
-                    <button type="button" class="button is-link modal-button" data-target="modal-image2">Image modal</button>
+                    <button type="button" class="button is-link modal-button" id="modal-image-2-btn" data-target="modal-image2">Image modal</button>
                   </div>
                 </div>
               </article>
@@ -1279,7 +1279,7 @@
       </div>
     </footer>
   
-    <div id="modal-card" class="modal modal-fx-3dSlit">
+    <div id="modal-card" role="dialog" tabindex="-1" aria-labelledby="modal-image-btn" class="modal modal-fx-3dSlit">
       <div class="modal-background"></div>
       <div class="modal-content is-tiny">
         <div class="card">
@@ -1317,7 +1317,7 @@
       <button class="modal-close is-large"></button>
     </div>
   
-    <div id="modal-image1" class="modal modal-fx-3dSlit">
+    <div id="modal-image1" role="dialog" tabindex="-1" aria-labelledby="modal-image-1-btn" class="modal modal-fx-3dSlit">
       <div class="modal-background"></div>
       <div class="modal-content is-huge is-image">
         <img alt="Random image pattern" src="https://source.unsplash.com/collection/146130/?sig=1">
@@ -1325,7 +1325,7 @@
       <button class="modal-close is-large"></button>
     </div>
   
-    <div id="modal-image2" class="modal modal-fx-superScaled">
+    <div id="modal-image2" role="dialog" tabindex="-1" aria-labelledby="modal-image-2-btn" class="modal modal-fx-superScaled">
       <div class="modal-background"></div>
       <div class="modal-content  is-image">
         <img alt="Random image pattern" src="https://source.unsplash.com/collection/146130/?sig=3">
