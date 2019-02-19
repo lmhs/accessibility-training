@@ -438,16 +438,36 @@ time.subtitle {
   color: #0e6faf;
 }
 
-.tag:not(body).is-danger,
-.help.is-danger {
+.tag:not(body).is-danger {
   background-color: #bb3333;
 }
 
-.tag:not(body).is-success,
-.help.is-success {
+.help.is-danger {
+  color: #bb3333;
+}
+
+.tag:not(body).is-success {
   background-color: #248243;
+}
+
+.help.is-success {
+  color: #248243;
 }
 
 .has-text-grey-light {
   color: #828282!important;
+}
+
+.notification-message {
+  position: fixed;
+  top: 30px;
+  left: 5px;
+  display: block;
+  background: green;
+  padding: 15px;
+  color: #fff;
+}
+
+.notification-message:empty {
+  padding: 0;
 }
